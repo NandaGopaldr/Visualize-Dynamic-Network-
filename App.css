@@ -1,0 +1,143 @@
+/* General layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+}
+
+.App {
+  text-align: center;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.App-header {
+  background: linear-gradient(135deg, #0077b6, #90e0ef);
+  padding: 40px 20px;
+  border-radius: 12px 12px 0 0;
+  color: white;
+}
+
+.App-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+input[type="file"] {
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #0077b6;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #0077b6;
+  cursor: pointer;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  color: #fff;
+  background-color: #0077b6;
+}
+
+button:hover {
+  background-color: #023e8a;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.csv-table {
+  margin: 20px auto;
+  width: 90%;
+  border-collapse: collapse;
+  border: 1px solid #dee2e6;
+  background-color: #f8f9fa;
+}
+
+.csv-table th, .csv-table td {
+  padding: 12px 20px;
+  text-align: center;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.csv-table th {
+  background-color: #0077b6;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.csv-table td {
+  background-color: #ffffff;
+  color: #333;
+}
+
+.chart-container {
+  width: 90%;
+  margin: 50px auto;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* Add subtle hover effects */
+input[type="file"]:hover, button:hover {
+  background-color: #005f7f;
+  color: #ffffff;
+}
+
+/* Add transitions for smooth animations */
+button, input[type="file"] {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #023e8a;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 0 0 12px 12px;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.csv-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.csv-table th, .csv-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.csv-table th {
+  background-color: #f2f2f2;
+}
